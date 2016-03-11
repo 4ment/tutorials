@@ -1,0 +1,5 @@
+site_name: Bioinformatics Tutorials
+pages:
+- [index.md, Home]
+- [beastintro.md, Introduction to BEAST]
+theme: readthedocs

@@ -28,6 +28,7 @@ We are going to analyse the haemagglutinin gene of 21 influenza A viruses (subty
 The program BEAUti is a user-friendly program for setting the model parameters for BEAST. 
 
 Run **BEAUTi**:
+
 * Linux: Open the command line and type `beauti`. If the program is not in the path type the full path to the program (e.g. `/home/user/BEAST/bin/beauti` where `BEAST` is the BEAST distribution folder).
 * Mac: Double click the `BEAUTi.app` in the `Applications` folder.
 * Windows: Double click the `BEAUTi.exe`.
@@ -85,6 +86,7 @@ That's it for BEAUTi! Now it is time to run BEAST on the newly generated file.
 ## BEAST
 
 Run **BEAST**:
+
 * Linux: Open the command line and type `beast`. If the program is not in the path type the full path to the program (e.g. `/home/user/BEAST/bin/beast` where `BEAST` is the BEAST distribution folder).
 * Mac: Double click the `BEAST.app` in the `Applications` folder.
 * Windows: Double click the `BEAST.exe`.
@@ -110,6 +112,7 @@ BEAST will take about 5 minutes to finish and will create two files:
 ## Tracer
 
 Run **Tracer**:
+
 * Linux: Open the command line and type `tracer`. If the program is not in the path type the full path to the program (e.g. `/home/user/Tracer/bin/tracer` where `Tracer` is the Tracer distribution folder).
 * Mac: Double click the `Tracer.app` in the `Applications` folder.
 * Windows: Double click the `Tracer.exe`.
@@ -129,6 +132,7 @@ Note that the effective sample sizes (ESSs) for some of the logged quantities ar
 BEAST also produces a sample of plausible trees along its sample of parameter estimates. These need to be summarized using the program TreeAnnotator. This will take the set of trees and find the maximum clade credibility tree. It will then annotate this summary tree with the mean ages of all the nodes and the HPD ranges. It will also calculate the posterior clade probability for each node and the mean rate of each lineage and the HPD ranges.
 
 Run **TreeAnnotator**:
+
 * Linux: Open the command line and type `treeannotator`. If the program is not in the path type the full path to the program (e.g. `/home/user/BEAST/bin/treeannotator` where `BEAST` is the BEAST distribution folder).
 * Mac: Double click the `TreeAnnotator.app` in the `Applications` folder.
 * Windows: Double click the `TreeAnnotator.exe`.
@@ -143,6 +147,7 @@ Set it up to look like this:
 After all these efforts it is now time to look at a tree.
 
 Run **FigTree**:
+
 * Linux: Open the command line and type `figtree`. If the program is not in the path type the full path to the program (e.g. `/home/user/FigTree/bin/figtree` where `FigTree` is the BEAST distribution folder).
 * Mac: Double click the `FigTree.app` in the `Applications` folder.
 * Windows: Double click the `FigTree.exe`.
